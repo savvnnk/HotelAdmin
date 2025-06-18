@@ -21,6 +21,7 @@ namespace course
         {
             InitializeComponent();
             this.roomName = roomName;
+            this.guestManager = new GuestManager(); 
             labelRoomName.Text = roomName; 
         }
         private void BookingForm_Load(object sender, EventArgs e)
